@@ -1,0 +1,364 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    }
+
+ * { 
+    scroll-behavior: smooth;
+   }
+
+body {
+    background-color: #efefef;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    }
+
+    @media (min-width: 350px) {
+        .body,
+        .video {
+            max-width: 300px;
+            max-height: 300px;
+          }
+        }
+    
+
+    @media (min-width: 576px) {
+        .body,
+        .video {
+            max-width: 500px;
+            max-height: 500px;
+          }
+        }
+      
+    @media (min-width: 768px) {
+        .body,
+        .video {
+            max-width: 700px;
+            max-height: 700px;
+          }
+        }
+
+    @media (min-width: 992px) {
+        .body,
+        .video {
+        max-width: 900px;
+        max-height: 900px;
+        }
+    }
+  
+
+header {
+    position: sticky;
+    top: 0;
+    bottom: 5rem;
+    margin: 0 auto;
+    display: flex;
+    height: 32px;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(45, 154, 101, 0.7),
+        rgba(229, 218, 16, 0.7)
+      ),
+    url(https://images.pexels.com/photos/50614/pexels-photo-50614.jpeg);
+    background-size: cover;
+    background-position: center;
+      }   
+
+      @media (min-width: 350px) {
+        .header {
+            max-width: 300px;
+            max-height: 0.5rem;
+            font-size: auto;
+            height: auto;
+              }
+        }
+
+      @media (min-width: 576px) {
+        .header {
+          max-width: 550px;
+          max-height: 1rem;
+          font-size: auto;
+          height: auto;
+            }
+      }
+      
+      @media (min-width: 768px) {
+        .header {
+          max-width: 700px;
+          max-height: 2rem;
+          font-size: auto;
+          height: auto;
+                  }
+      }
+
+      @media (min-width: 992px) {
+        .header {
+            max-width: 880px;
+            max-height: 3rem;
+            font-size: auto;
+            height: auto;
+                    }
+      }
+    
+            
+#title {
+    color:rgb(229, 218, 16);
+    font-size: 50px;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 5px 5px black;
+    display: flex;
+             }
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 26px;
+    margin-left: 9px;
+    align-items: center;
+    display: flex;
+        
+    }
+
+.logo-img {
+    display: inline;
+    height: 50px;
+}
+
+@media (min-width: 300px) {
+    .logo {
+        margin-right: auto;
+       }
+    .logo-img {
+        height: 20px;
+    }
+    #title {
+        font-size: 20px;
+            }
+    .nav-link {
+        font-size: 12px;
+              }
+
+}
+@media (min-width: 576px) {
+    .logo {
+        margin-right: auto;
+       }
+       .logo-img {
+        height: 30px;
+    }
+    #title {
+        font-size: 30px;
+            }
+     .nav-link {
+         font-size: 14px;
+              }
+
+}
+
+@media (min-width: 768px) {
+    .logo {
+        margin-right: auto;
+       }
+       .logo-img {
+        height: 45px;
+    }
+    #title {
+        font-size: 45px;
+           }
+           .nav-link {
+            font-size: 16px;
+          }
+}
+
+@media (min-width: 992px) {
+    .logo {
+      margin-right: auto;
+       }
+       .logo-img {
+        height: 45px;
+    }
+       #title {
+        font-size: 50px;
+           }
+    .nav-link {
+        font-size: 18px;
+      }
+  }
+
+
+
+nav-bar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+        }
+
+.nav-link {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    }
+
+   
+main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#offers-subscription {
+    text-align: center;
+    align-items: center;
+    }
+
+#email {
+    text-align: center;
+    }
+
+h2 {
+    font-size: 35px;
+    margin: 10px auto;
+    padding-top: 60px;
+    }
+
+
+h2 #offers-title {
+    font-size: 10px;
+    margin-bottom: 5px;
+    }
+
+
+
+.mobiledevicesales {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+    font-style: italic;   
+}    
+
+#email {
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+}
+
+#email, #submit {
+  cursor: pointer;
+}
+
+.button {
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.device-video {
+    font-size: 25px;
+    display: block;
+    }
+
+.video {
+    margin:0;
+    border-radius: 1rem;
+    border: 0.1rem black solid;
+       }
+
+table {
+    margin: 0 auto;
+    border-width: 3px;
+    border-collapse: collapse;
+    padding: 2rem;
+    border: 4px black solid;
+        }
+    
+
+td, th, td {
+    padding: 2rem;
+    border: 4px black solid;
+}
+
+td{
+    font-weight: bold;
+}
+
+thead {
+    background-image: linear-gradient(
+        115deg,
+        rgba(45, 154, 101, 0.7),
+        rgba(229, 218, 16, 0.7)
+      );
+    font-size: 25px;
+    }
+
+tbody:hover {
+    cursor: pointer;
+}
+
+#name, #email-submit, #message {
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+    text-align: center;
+    }
+
+#name, #email-submit {
+    cursor: pointer;
+}
+
+fieldset {
+    margin:0 auto;
+    padding: 10px 0px;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+
+
+textarea {
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+    width: 14rem;
+    height: 5rem;
+}
+
+button {
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+}
+
+button, textarea:hover {
+    cursor: pointer;
+}
+
+a {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover, a:active {
+    color: #eee;
+}
+
+footer {
+    background-image: linear-gradient(
+        115deg,
+        rgba(45, 154, 101, 0.7),
+        rgba(229, 218, 16, 0.7)
+      );
+    padding: 0.3rem;
+    }
+
